@@ -1,0 +1,37 @@
+services:
+  api:
+    build: .
+    container_name: anomaly-api
+    ports:
+      - "8000:8000"
+    env_file:
+      - ../.env.example
+    volumes:
+      - ../logs:/app/logs
+    restart: unless-stopped
+
+  ui:
+    build: .
+    container_name: anomaly-ui
+    command: [ "bash", "scripts/start_ui.sh" ]
+    ports:
+      - "8501:8501"
+    env_file:
+      - ../.env.example
+    volumes:
+      - ../logs:/app/logs
+      - ../src/models/saved:/app/src/models/saved
+
+  prometheus:
+    image: prom/prometheus:v2.53.0
+    container_name: prometheus
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana:11.0.0
+    container_name: grafana
+    ports:
+      - "3000:3000"

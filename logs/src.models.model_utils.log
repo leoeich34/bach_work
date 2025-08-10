@@ -1,0 +1,4 @@
+2025-06-24 02:18:16,680 | INFO    | src.models.model_utils | Загрузка модели: src/models/saved/random_forest.joblib
+2025-06-24 02:18:23,910 | INFO    | src.models.model_utils | Загрузка модели: src/models/saved/random_forest.joblib
+2025-06-24 02:18:42,234 | INFO    | src.models.model_utils | Загрузка модели: src/models/saved/random_forest.joblib
+2025-06-24 02:18:58,810 | INFO    | src.models.model_utils | Загрузка модели: src/models/saved/random_forest.joblib

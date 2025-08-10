@@ -1,0 +1,9 @@
+2025-06-24 02:55:15,043 | INFO    | pipeline | Запущен процесс: python /Users/levan/MLonAir/src/data/download_data.py --url https://archive.ics.uci.edu/static/public/1231/cicids2017.zip
+2025-06-24 02:58:09,551 | INFO    | pipeline | Запущен процесс: python /Users/levan/MLonAir/src/data/download_data.py --url https://archive.ics.uci.edu/static/public/1231/cicids2017.zip
+2025-06-24 02:58:53,630 | INFO    | pipeline | Запущен процесс: python /Users/levan/MLonAir/src/data/download_data.py --url https://archive.ics.uci.edu/static/public/1231/cicids2017.zip
+2025-06-24 03:02:19,710 | INFO    | pipeline | Запущен процесс: python /Users/levan/MLonAir/src/data/download_data.py --url https://archive.ics.uci.edu/static/public/1231/cicids2017.zip
+2025-06-24 03:02:41,352 | INFO    | pipeline | Запущен процесс: python /Users/levan/MLonAir/src/data/download_data.py --url https://archive.ics.uci.edu/static/public/1231/cicids2017.zip
+2025-06-24 03:03:17,246 | INFO    | pipeline | Запущен процесс: python /Users/levan/MLonAir/src/data/download_data.py --url https://archive.ics.uci.edu/static/public/1231/cicids2017.zip
+2025-06-24 03:04:22,702 | INFO    | pipeline | Запущен процесс: python /Users/levan/MLonAir/src/data/download_data.py --url https://archive.ics.uci.edu/static/public/1231/cicids2017.zip
+2025-06-24 03:05:56,674 | INFO    | pipeline | Запущен процесс: python -m data.download_data --url https://archive.ics.uci.edu/static/public/1231/cicids2017.zip
+2025-06-24 03:06:34,349 | INFO    | pipeline | Запущен процесс: python -m data.download_data --url https://archive.ics.uci.edu/static/public/1231/cicids2017.zip
